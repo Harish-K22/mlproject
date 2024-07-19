@@ -95,7 +95,7 @@ class ModelTrainer:
             ]
             best_model = models[best_model_name]
 
-            logging.info(f"Best model found: {best_model_name} with R² score: {best_model_score}")
+            logging.info(f"Best model found: {best_model_name} with R2 score: {best_model_score}")
 
             if best_model_score < 0.6:
                 logging.error("No best model found with a score above 0.6")
